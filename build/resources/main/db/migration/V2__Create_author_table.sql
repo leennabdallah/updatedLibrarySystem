@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS author(
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    biography VARCHAR(255) NOT NULL,
+    age INT NOT NULL
+
+);
